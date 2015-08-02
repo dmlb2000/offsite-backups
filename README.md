@@ -1,4 +1,4 @@
-= Offsite Backups using Google Drive =
+# Offsite Backups using Google Drive
 
 This is a docker container that uses ```drive``` to sync a local file
 to a Google Drive directory.
