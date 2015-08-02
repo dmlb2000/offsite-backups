@@ -11,4 +11,9 @@ run ```buildit.sh``` to create the docker container and use
 ```runit.sh``` to run the container syncing the ```backups```
 folder to Google Drive.
 
+Override ```DRIVE_PATH_MATCH``` when running the container to change
+where in your Google Drive you want to sync the files. My example is
+set to ```/Pictures``` and I drop all my pictures I want to keep in
+sync in the local directory ```backups```.
+
 https://github.com/odeke-em/drive
