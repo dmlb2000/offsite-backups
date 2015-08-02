@@ -7,6 +7,6 @@ if ! test -e $PWD/backups/.gd/credentials.json ; then
   # /go/bin/drive init
   # ... follow instructions
   # exit
-  docker run -i -t --rm -v $PWD/backups:/go/backups localhost/gdrive /bin/bash -l
+  docker run -i -t --rm -v $PWD/backups:/go/backups docker.io/dmlb2000/gdrive-backups /bin/bash -l
 fi
-docker run -i -t --rm -v $PWD/backups:/go/backups localhost/gdrive
+docker run -i -t --rm -v $PWD/backups:/go/backups docker.io/dmlb2000/gdrive-backups
